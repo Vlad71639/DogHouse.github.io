@@ -76,6 +76,124 @@
   }
   </script>
 <style>
+        /* Mobile-specific styles */
+        @media (max-width: 520px) {
+            body {
+                font-size: 14px;
+                line-height: 1.4;
+            }
+
+            .logo {
+                width: 60px;
+                height: 60px;
+            }
+
+            .title h1 {
+                font-size: 18px;
+                margin: 0;
+                padding: 0;
+            }
+
+            .lead-text h2 {
+                font-size: 20px;
+                line-height: 1.3;
+            }
+
+            .card {
+                padding: 12px;
+            }
+
+            .hero {
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+            }
+
+            .thumb {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 10px;
+            }
+
+            .cta {
+                padding: 12px;
+            }
+
+            .bigbtn {
+                width: 100%;
+                padding: 12px;
+                font-size: 16px;
+            }
+
+            .panel {
+                padding: 12px;
+                text-align: center;
+            }
+
+            .badges {
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 10px;
+            }
+
+            .reviews {
+                grid-template-columns: 1fr;
+            }
+
+            .review-card {
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            .faq details {
+                margin-top: 12px;
+                padding: 10px;
+            }
+
+            .faq summary {
+                font-weight: bold;
+            }
+
+            .promo-code {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            footer {
+                font-size: 12px;
+                padding: 12px;
+            }
+
+            .wrap {
+                padding: 10px;
+                margin: 0;
+            }
+        }
+
+        /* Medium screens */
+        @media (max-width: 990px) {
+            .hero {
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+            }
+
+            .cta {
+                margin-top: 20px;
+                width: 100%;
+            }
+
+            .cta .panel {
+                margin: 0 auto;
+                max-width: 450px;
+            }
+
+            .thumb {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    
     :root{
       --bg: #0b0b12;
       --muted:#9fb0c8;
@@ -502,5 +620,4 @@
   </script>
 </body>
 </html>
-
 
