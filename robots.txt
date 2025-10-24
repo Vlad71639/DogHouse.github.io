@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Запрещаем индексировать системные директории (если они появятся)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /go/
+
+# Указываем ссылку на карту сайта
+Sitemap: https://doghouse.cards/sitemap.xml
+
+# Основной домен
+Host: doghouse.cards
